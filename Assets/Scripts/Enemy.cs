@@ -24,6 +24,10 @@ public class Enemy : MonoBehaviour
 
     public Vector3 location;
 
+    public float angleX;
+    public float angleY;
+    public float angleZ;
+
         //Attacking
     public float timeBetweenAttacks;
     bool alreadyAttacked;
